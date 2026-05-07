@@ -10,7 +10,7 @@
 ### Abra o PowerShell como Administrador e cole:
 
 ```powershell
-irm https://raw.githubusercontent.com/SEU-USUARIO/BluestacksOptimizer/main/BluestacksOptimizer.ps1 | iex
+irm https://raw.githubusercontent.com/esieme/BluestacksOptimizer/main/BluestacksOptimizer.ps1 | iex
 
 📋 Pré-requisitos (antes de executar)
 
