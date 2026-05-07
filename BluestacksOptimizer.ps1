@@ -9,7 +9,7 @@
     - Aplica otimizações de desempenho (animações, sincronização, etc)
     - Limpa cache e reduz consumo de RAM
 .NOTES
-    Autor: Seu Nome
+    Autor: @_esieme
     Requer: PowerShell como Administrador
 #>
 
@@ -33,8 +33,8 @@ function Show-Header {
     Write-Host @"
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
-║     🚀 BlueStacks Optimizer v1.0                              ║
-║     Deixe seu emulador mais leve para PCs fracos             ║
+║     🚀 BlueStacks Optimizer v1.0                             ║
+║     Deixe seu emulador mais leve  siga  @_esieme             ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
 "@ -ForegroundColor Cyan
@@ -233,7 +233,7 @@ function Show-RAMUsage {
     
     Write-Host ""
     Write-Host "╔══════════════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-    Write-Host "║                    📊 STATUS DA MEMÓRIA                       ║" -ForegroundColor Cyan
+    Write-Host "║                📊 STATUS DA MEMÓRIA DEV - esieme             ║" -ForegroundColor Cyan
     Write-Host "╚══════════════════════════════════════════════════════════════╝" -ForegroundColor Cyan
     
     $ramInfo | ForEach-Object {
@@ -251,7 +251,7 @@ function Show-RAMUsage {
 function Show-FinalInstructions {
     Write-Host ""
     Write-Host "╔══════════════════════════════════════════════════════════════╗" -ForegroundColor Green
-    Write-Host "║                    ✅ OTIMIZAÇÃO CONCLUÍDA!                    ║" -ForegroundColor Green
+    Write-Host "║             ✅ OTIMIZAÇÃO CONCLUÍDA!   DEV - esieme          ║" -ForegroundColor Green
     Write-Host "╚══════════════════════════════════════════════════════════════╝" -ForegroundColor Green
     Write-Host ""
     Write-Host "🎯 O que foi feito:" -ForegroundColor Cyan
